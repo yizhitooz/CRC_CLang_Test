@@ -7,7 +7,7 @@ SRCS = main.c crc_func.c check_sum_func.c
 # 目标文件
 OBJS = $(SRCS:.c=.o)
 # 输出的可执行文件
-TARGET = main.exe
+TARGET = main.elf
 
 # 配置文件和生成的头文件
 CFG_FILE = config.cfg
