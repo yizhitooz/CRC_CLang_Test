@@ -1,12 +1,12 @@
 /**
- * @file data.h
+ * @file data_array.h
  * @author your name (you@domain.com)
- * @brief
+ * @brief 
  * @version 0.1
  * @date 2025-01-06
- *
+ * 
  * @copyright Copyright (c) 2025
- *
+ * 
  */
 
 #ifndef _DATA_ARRAY_H
@@ -31,6 +31,6 @@ uint8 data_array[] = {
     0x00, 0x00, 0x00, 0x00, 0x00, 0x00,
     0x00, 0x00, 0x00, 0x00
     //, 0x8D, 0xBB
-};
+}; // 待校验数据
 
 #endif /* _DATA_ARRAY_H */

@@ -9,5 +9,4 @@ typedef short int16;
 typedef unsigned char uint8;
 typedef signed char int8;
 
-
 #endif /* _OVT_TYPE_H */

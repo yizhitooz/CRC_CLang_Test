@@ -4,6 +4,7 @@ uint16 _chipone_crc(const uint8 *data, uint16 data_len)
 {
     uint16 crc = 0;
     uint16 i, j;
+    
     for (i = 0; i < data_len; i++)
     {
         crc ^= data[i] << 8;
@@ -20,6 +21,7 @@ uint16 _chipone_crc(const uint8 *data, uint16 data_len)
             }
         }
     }
+
     return crc;
 }
 
@@ -31,7 +33,6 @@ uint16 _focal_crc(const uint8 *data, uint16 data_len)
     for (j = 7; j < data_len; j++)
     {
         crc ^= data[j];
-
         for (i = 0; i < 8; i++)
         {
             if (crc & 0x0001)
@@ -44,6 +45,7 @@ uint16 _focal_crc(const uint8 *data, uint16 data_len)
             }
         }
     }
+
     return crc;
 }
 
