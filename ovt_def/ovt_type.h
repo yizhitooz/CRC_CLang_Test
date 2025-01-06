@@ -1,5 +1,5 @@
-#ifndef OVT_TYPE_H
-#define OVT_TYPE_H
+#ifndef _OVT_TYPE_H
+#define _OVT_TYPE_H
 
 /* type definition */
 typedef unsigned int uint32;
@@ -10,4 +10,4 @@ typedef unsigned char uint8;
 typedef signed char int8;
 
 
-#endif
+#endif /* _OVT_TYPE_H */
